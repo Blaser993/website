@@ -1,3 +1,11 @@
+
+
+/* __________________________________
+
+------------reset-----------------
+
+_________________________________ */
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -12,4 +20,55 @@ img{
 a, ul, li, menu{
     text-decoration: none;
     color: currentColor;
+    list-style-type: none;
+}
+
+body{
+    background-color: #c6b7ce;
+    color:#181617;
+}
+
+div{
+    border: 1px solid red;
+}
+
+/* __________________________________
+
+------------layout-----------------
+
+_________________________________ */
+
+.container-full{
+    width: 100%;
+    padding: 12px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    border: 1px solid green;
+}
+
+/* __________________________________
+
+------------elementi-----------------
+
+_________________________________ */
+
+.head{
+    line-height: 72px;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.head__item{
+    padding: 8px 12px;
 }
