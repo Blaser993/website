@@ -24,8 +24,13 @@ a, ul, li, menu{
 }
 
 body{
-    background-color: #c6b7ce;
+    background-color: #f0d5ff;
     color:#181617;
+}
+
+nav{
+    position: sticky;
+    top: 0;
 }
 
 div{
@@ -48,13 +53,23 @@ _________________________________ */
     margin: auto;
 }
 
+
+
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 
+.column{
+    flex-direction: column;
+}
+
 .col{
     border: 1px solid green;
+}
+
+.col-auto{
+    flex-grow: 1;
 }
 
 /* __________________________________
@@ -64,11 +79,30 @@ _________________________________ */
 _________________________________ */
 
 .head{
-    line-height: 72px;
-    align-items: center;
-    justify-content: space-evenly
+    margin: 48px 0px ;
+    line-height: 48px;
+    align-items: flex-start;
+
 }
 
 .head__item{
+    text-transform: uppercase;
     padding: 8px 12px;
 }
+
+.hero__wrapper img{
+    max-width: 360px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+
+/* __________________________________
+
+------------librerie-----------------
+
+_________________________________ */
+
+/* 1_____________________________________ */
+
+  /* __________________________________________ */
