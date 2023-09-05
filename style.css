@@ -28,12 +28,12 @@ body{
     color:#181617;
 }
 
-nav{
+/* nav{
     position: sticky;
     top: 0;
-}
+} */
 
-div{
+.debug{
     border: 1px solid red;
 }
 
@@ -44,7 +44,7 @@ div{
 _________________________________ */
 
 .container-full{
-    width: 100%;
+    max-width: fit-content;
     padding: 12px;
 }
 
@@ -53,12 +53,18 @@ _________________________________ */
     margin: auto;
 }
 
+.wrapper{
 
+    /* MAIN DIMENSIONE IMMAGINE */
+    
+    width: 33%;
+    border: 1px solid violet;
+}
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    text-align: left;
+
 }
 
 .column{
@@ -92,16 +98,15 @@ _________________________________ */
 }
 
 .hero__wrapper {
-
-    /* MAIN DIMENSIONE */
-    width: 33%;
-
+    width: 100%;
     padding-top: 100px;
     border-radius: 50%;
     aspect-ratio: 1;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    align-self: flex-start;
+    
 }
 
 
