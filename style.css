@@ -58,6 +58,7 @@ _________________________________ */
 .row{
     display: flex;
     flex-wrap: wrap;
+    text-align: left;
 }
 
 .column{
@@ -90,11 +91,56 @@ _________________________________ */
     padding: 8px 12px;
 }
 
-.hero__wrapper img{
-    max-width: 360px;
+.hero__wrapper {
+
+    /* MAIN DIMENSIONE */
+    width: 33%;
+
+    padding-top: 100px;
     border-radius: 50%;
     aspect-ratio: 1;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
 }
+
+
+.main-element {
+    position: absolute;
+    border-radius: 50%;
+    top: 4%;
+    left: 4%;
+    display: block;
+    height: 92%;
+    width: 92%;
+    margin: auto;
+    z-index: 1;
+}
+
+.border {
+    position: absolute;
+    display: block;
+    top: -50%;
+    left: -50%;
+    z-index: -9;
+    display: block;
+    height: 200%;
+    width: 200%;
+    transform: rotate(225deg);
+    overflow: hidden;
+    background: linear-gradient(to right, #fff 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #fff 100%);
+    background-size: 200% auto;
+    
+    animation: shine 5s  infinite;
+  }
+
+  /*bordo animato immagine nell'hero*/
+
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
 
 
 /* __________________________________
