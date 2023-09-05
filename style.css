@@ -23,10 +23,17 @@ a, ul, li, menu{
     list-style-type: none;
 }
 
+main{
+    max-height: 100vh;
+    overflow: auto;
+}
+
 body{
     background-color: #f0d5ff;
     color:#181617;
 }
+
+
 
 /* nav{
     position: sticky;
@@ -44,8 +51,7 @@ body{
 _________________________________ */
 
 .container-full{
-    max-width: fit-content;
-    padding: 12px;
+    padding: 5%;
 }
 
 .container{
@@ -56,8 +62,8 @@ _________________________________ */
 .wrapper{
 
     /* MAIN DIMENSIONE IMMAGINE */
-    
-    width: 33%;
+
+    width: 15vw;
     border: 1px solid violet;
 }
 
@@ -73,6 +79,10 @@ _________________________________ */
 
 .col{
     border: 1px solid green;
+}
+
+.col-6{
+    flex-basis: calc(100%/12*6) ;
 }
 
 .col-auto{
