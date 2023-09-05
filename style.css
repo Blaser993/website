@@ -25,7 +25,7 @@ a, ul, li, menu{
 
 main{
     max-height: 100vh;
-    overflow: auto;
+    overflow: hidden;
 }
 
 body{
@@ -51,12 +51,23 @@ body{
 _________________________________ */
 
 .container-full{
-    padding: 5%;
+    padding: 15px;
+
 }
 
 .container{
     max-width: 1000px;
     margin: auto;
+}
+
+.content{
+    height: 100%;
+}
+
+.aside{
+    padding:14px;
+    overflow: auto;
+    max-height: 100vh;
 }
 
 .wrapper{
@@ -70,7 +81,7 @@ _________________________________ */
 .row{
     display: flex;
     flex-wrap: wrap;
-
+    max-height: 100%;
 }
 
 .column{
