@@ -12,6 +12,11 @@ _________________________________ */
     padding: 0px;
 }
 
+/* NASCONDO LA SCROLLBAR */
+.aside::-webkit-scrollbar {
+    display: none;
+}
+
 img{
     display: block;
     height: 100%;
@@ -69,6 +74,7 @@ _________________________________ */
     overflow: auto;
     max-height: 100vh;
 }
+
 
 .wrapper{
 
