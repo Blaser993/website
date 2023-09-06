@@ -32,7 +32,7 @@ _________________________________ */
 
 
 section{
-    padding-top: 24px;
+    padding-top: 36px;
     margin-bottom: 72px;
 }
 
@@ -57,7 +57,7 @@ main{
     max-height: 100dvh;
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
-    padding: 0px 36px;
+    padding: 0px 72px;
 }
 
 body{
@@ -70,7 +70,7 @@ body{
     font-size: 7vw;
     font-weight: 900;
     line-height: 0.9em;
-    padding-top: 24px;
+    padding-top: 36px;
 }
 
 .hero__descrizione h2{
@@ -81,7 +81,7 @@ body{
 p{
     font-size: 1.3rem;
     line-height: 1.8rem;
-    margin: 1rem 0;
+    margin: 1.2rem 0;
 }
 
 /* __________________________________
@@ -106,8 +106,6 @@ _________________________________ */
     overflow: auto;
     padding-bottom: 260px;
     padding-right: 24px;
- 
-
 }
 
 
@@ -146,12 +144,14 @@ _________________________________ */
     margin-top: auto;
     line-height: 48px;
     align-items: flex-start;
-    padding-bottom: 12px;
+    
+    margin-bottom: 24px;
 }
 
 .head__item{
     text-transform: uppercase;
     padding: 8px 12px;
+    padding-left: 0px;
 }
 
 .hero{
@@ -169,7 +169,7 @@ _________________________________ */
 
 .social{
 
-    padding-bottom: 24px;
+    padding-bottom: 36px;
 }
 
 .hero__wrapper {
@@ -187,6 +187,14 @@ _________________________________ */
 .card{
     padding: 16px;
     margin-bottom: 24px;
+}
+
+.button{
+    margin-left: -6px;
+    margin-right: 20px;
+    padding: 8px 12px;
+    border: 1px solid violet;
+    border-radius: 12px;
 }
 
 /* ------------------------- */
