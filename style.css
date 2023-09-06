@@ -105,8 +105,8 @@ _________________________________ */
 .aside{
     max-height: 100dvh;
     overflow: auto;
-    padding-left: 24px;
     padding-bottom: 60px;
+    padding-right: 24px;
 }
 
 
