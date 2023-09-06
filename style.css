@@ -40,10 +40,7 @@ body{
 
 
 
-/* nav{
-    position: sticky;
-    top: 0;
-} */
+
 
 .debug{
     border: 1px solid red;
@@ -66,12 +63,17 @@ _________________________________ */
 }
 
 .content{
-    height: 100%;
+    max-height: 100%;
 }
 
 .aside{
-    padding:14px;
+ 
     overflow: auto;
+
+}
+
+.fixed, .aside{
+    padding: 14px;
     max-height: 100vh;
 }
 
@@ -92,6 +94,7 @@ _________________________________ */
 
 .column{
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .col{
@@ -113,7 +116,7 @@ _________________________________ */
 _________________________________ */
 
 .head{
-    margin: 48px 0px ;
+    margin-top: auto;
     line-height: 48px;
     align-items: flex-start;
 
