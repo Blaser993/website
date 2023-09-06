@@ -30,11 +30,9 @@ _________________________________ */
     padding: 0px;
 }
 
-main{
-    padding: 36px;
-}
 
 section{
+    padding-top: 24px;
     margin-bottom: 72px;
 }
 
@@ -59,10 +57,11 @@ main{
     max-height: 100dvh;
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
-
+    padding: 0px 36px;
 }
 
 body{
+    
     background-color: #f0d5ff;
     color:#181617;
 }
@@ -71,7 +70,7 @@ body{
     font-size: 7vw;
     font-weight: 900;
     line-height: 0.9em;
-    
+    padding-top: 24px;
 }
 
 .hero__descrizione h2{
@@ -99,14 +98,16 @@ _________________________________ */
 
 .content{
     min-height: 100vh;
-    
+
 }
 
 .aside{
     max-height: 100dvh;
     overflow: auto;
-    padding-bottom: 60px;
+    padding-bottom: 260px;
     padding-right: 24px;
+ 
+
 }
 
 
@@ -157,6 +158,9 @@ _________________________________ */
     display: flex;
     flex-direction: column;
     padding-right: 60px;
+ 
+    /* position: sticky;
+    top: 0; */
 }
 
 .hero__descrizione{
@@ -165,7 +169,7 @@ _________________________________ */
 
 .social{
 
-    padding-bottom: 60px;
+    padding-bottom: 24px;
 }
 
 .hero__wrapper {
