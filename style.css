@@ -29,7 +29,7 @@ a, ul, li, menu{
 }
 
 main{
-    max-height: 100vh;
+    max-height: 100dvh;
     overflow: hidden;
 }
 
@@ -37,10 +37,6 @@ body{
     background-color: #f0d5ff;
     color:#181617;
 }
-
-
-
-
 
 .debug{
     border: 1px solid red;
@@ -52,9 +48,8 @@ body{
 
 _________________________________ */
 
-.container-full{
-    padding: 15px;
-
+main{
+    padding: 36px;
 }
 
 .container{
@@ -64,25 +59,20 @@ _________________________________ */
 
 .content{
     max-height: 100%;
+
 }
 
 .aside{
- 
+    max-height: 100dvh;
     overflow: auto;
-
-}
-
-.fixed, .aside{
-    padding: 14px;
-    max-height: 100vh;
+    padding-left: 24px;
+    padding-bottom: 60px;
 }
 
 
 .wrapper{
-
     /* MAIN DIMENSIONE IMMAGINE */
-
-    width: 15vw;
+    width: 40%;
     border: 1px solid violet;
 }
 
@@ -103,6 +93,7 @@ _________________________________ */
 
 .col-6{
     flex-basis: calc(100%/12*6) ;
+    margin-bottom: 24px;
 }
 
 .col-auto{
@@ -119,13 +110,29 @@ _________________________________ */
     margin-top: auto;
     line-height: 48px;
     align-items: flex-start;
-
+    padding-bottom: 12px;
 }
 
 .head__item{
     text-transform: uppercase;
     padding: 8px 12px;
 }
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__descrizione{
+    flex-grow: 1;
+}
+
+.social{
+
+    padding-bottom: 60px;
+}
+
+
 
 .hero__wrapper {
     width: 100%;
