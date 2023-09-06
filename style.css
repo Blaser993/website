@@ -34,6 +34,10 @@ main{
     padding: 36px;
 }
 
+section{
+    margin-bottom: 72px;
+}
+
 
 /* NASCONDO LA SCROLLBAR */
 .aside::-webkit-scrollbar {
@@ -64,9 +68,15 @@ body{
 }
 
 .hero__descrizione h1{
-    font-size: 7rem;
+    font-size: 7vw;
     font-weight: 900;
-    line-height: 6.4rem;
+    line-height: 0.9em;
+    
+}
+
+.hero__descrizione h2{
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 p{
@@ -89,7 +99,7 @@ _________________________________ */
 
 .content{
     min-height: 100vh;
-
+    
 }
 
 .aside{
@@ -115,8 +125,6 @@ _________________________________ */
     flex-direction: column;
     justify-content: flex-start;
 }
-
-
 
 .col-6{
     flex-basis: calc(100%/12*6) ;
@@ -148,6 +156,7 @@ _________________________________ */
 .hero{
     display: flex;
     flex-direction: column;
+    padding-right: 60px;
 }
 
 .hero__descrizione{
@@ -158,8 +167,6 @@ _________________________________ */
 
     padding-bottom: 60px;
 }
-
-
 
 .hero__wrapper {
     width: 100%;
@@ -173,6 +180,12 @@ _________________________________ */
     
 }
 
+.card{
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+/* ------------------------- */
 
 .main-element {
     position: absolute;
