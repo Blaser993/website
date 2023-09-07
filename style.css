@@ -15,7 +15,7 @@ _________________________________ */
 }
 
 .col{
-    border: 0px solid green;
+    border: 2px solid green;
 }
 
 /* __________________________________
@@ -44,7 +44,7 @@ section{
 
 img{
     display: block;
-    height: 100%;
+    width: 100%;
 }
 
 a, ul, li, menu{
@@ -78,6 +78,10 @@ body{
     font-weight: 800;
 }
 
+h3{
+    font-size: 2rem;
+}
+
 p{
     font-size: 1.3rem;
     line-height: 1.8rem;
@@ -105,7 +109,7 @@ _________________________________ */
     max-height: 100dvh;
     overflow: auto;
     padding-bottom: 260px;
-    padding-right: 24px;
+
 }
 
 
@@ -125,9 +129,19 @@ _________________________________ */
     justify-content: flex-start;
 }
 
+.col-7{
+    flex-basis: calc(100%/12*7) ;
+   
+}
+
 .col-6{
     flex-basis: calc(100%/12*6) ;
     margin-bottom: 24px;
+}
+
+.col-5{
+    flex-basis: calc(100%/12*5) ;
+    flex-grow: 1;
 }
 
 .col-auto{
@@ -184,10 +198,38 @@ _________________________________ */
     
 }
 
-.card{
-    padding: 16px;
+.card {
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5fr 7fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 12px;
+
+    padding: 24px;
+    border-radius: 12px;
     margin-bottom: 24px;
+
 }
+
+
+.card:hover{
+    background-color: rgba(238, 130, 238, 0.3)
+}
+
+.card:hover > img,
+.card:hover > article {
+  background-color: transparent; /* Imposta lo sfondo trasparente per gli elementi interni */
+}
+
+.anteprima{
+    align-self: center;
+}
+
+.anteprima img{
+    height: 100%;
+}
+
 
 .button{
     margin-left: -6px;
