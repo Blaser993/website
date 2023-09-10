@@ -15,7 +15,7 @@ _________________________________ */
 }
 
 .col{
-    border: 2px solid green;
+    border: 0px solid green;
 }
 
 /* __________________________________
@@ -108,7 +108,7 @@ _________________________________ */
 .aside{
     max-height: 100dvh;
     overflow: auto;
-    padding-bottom: 260px;
+    padding-bottom: 72px;
 
 }
 
@@ -224,10 +224,20 @@ _________________________________ */
     margin-bottom: 24px;
 
 }
+span{
+    display: none;
+}
 
+.card:hover span{
+    display: block;
+    border-radius: 8px;
+    background-color: rgba(128, 125, 250, 0.3);
+    padding: 4px 6px;
+    margin: 0px 4px 4px 0px;
+}
 
 .card:hover{
-    background-color: rgba(200, 200, 200, 0.5);
+    background-color: rgba(128, 125, 250, 0.3);
 }
 
 .card:hover > img,
@@ -248,7 +258,7 @@ _________________________________ */
     margin-left: -6px;
     margin-right: 20px;
     padding: 8px 12px;
-    border: 1px solid violet;
+    border: 1px solid #807dfa;
     border-radius: 12px;
 }
 
