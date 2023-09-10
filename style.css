@@ -62,7 +62,7 @@ main{
 
 body{
     
-    background-color: #f0d5ff;
+    background-color:#f2f2f2;
     color:#181617;
 }
 
@@ -227,7 +227,7 @@ _________________________________ */
 
 
 .card:hover{
-    background-color: rgba(238, 130, 238, 0.3)
+    background-color: rgba(200, 200, 200, 0.5);
 }
 
 .card:hover > img,

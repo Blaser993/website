@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="./mail.css">
     <title>Corrado de Pinto</title>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -38,30 +39,79 @@
         </div>
     </nav>
     <main>
-        <div class="container debug">
-        <form class="row" id="contact-form">
-            
-            <div class="col-6 row column">
-                <input type="hidden" name="contact_number" > 
-                <label>Name</label>
-                <input type="text" class="col-auto" name="user_name" required>
-            </div>
-            <div class="col-6 row column">
-                <label>Email</label>
-                <input type="email" name="user_email" required>
-            </div>
+        <!-- <div class="container-contact100">
+                <div class="wrap-contact100">
 
-            <div class="col-12 row column">
-                <label>Message</label>
-                <textarea name="message" required></textarea >
-            </div>
+                    <form class="contact100-form" id="contact-form">
+                        
+                        <div class="wrap-input100">
+                            <label>Name</label>
+                            <input type="hidden" name="contact_number" > 
+                            
+                            <input type="text" class="col-auto" name="user_name" required>
+                        </div>
+                        <div class="wrap-input100">
+                            <label>Email</label>
+                            <input type="email" name="user_email" required>
+                        </div>
+                        
+                        <div class="wrap-input100">
+                            <label>Message</label>
+                            <textarea name="message" required></textarea >
+                        </div>
 
-            <div class="col-5 row invio debug">
-                <input class="col-auto" type="submit" value="Send">
-            </div>
+                        <div class="container-contact100-form-btn">
+                            <button>
+                                <input class="col-auto" type="submit" value="Send">
 
-        </form>
+                            </button>
+                        </div>
+                    
+                </div>
+            </form>
+        </div>  -->
+
+   
+
+        <div class="container">
+            <form class="contact100-form" id="contact-form" >
+                <div class="title">
+                    <h3>Teniamoci in contatto ✌️</h3>
+                </div>
+          
+                <div>
+
+                    <input type="hidden" name="contact_number" > 
+                    <label for="fname">Nome</label>
+                    <input type="text" id="fname" name="user_name" placeholder="Inserisci il tuo nome..." required>
+                
+                
+                </div>
+
+                <div>
+
+                    
+                        <label for="email">Mail</label>
+                        <input type="email" id="mail" name="user_mail" placeholder="Inserisci la tua mail..." required>
+                </div>
+
+                
+                <div>
+
+                    <label>Scrivi quì il tuo messaggio</label>
+                    <textarea name="message" required></textarea >
+                
+                </div>
+                
+
+                
+                <div class="submit">
+                    <input type="submit" value="Invia">
+                </div>
+
+            </form>
         </div>
+        
     </main>
 </body>
 
