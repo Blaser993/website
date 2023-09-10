@@ -37,6 +37,7 @@ section{
 }
 
 
+
 /* NASCONDO LA SCROLLBAR */
 .aside::-webkit-scrollbar {
     display: none;
@@ -221,7 +222,7 @@ _________________________________ */
     grid-template-rows: 1fr;
     grid-column-gap: 12px;
     padding: 24px;
-    border-radius: 12px;
+    border-radius: 16px;
     margin-bottom: 24px;
 
 }
@@ -235,6 +236,16 @@ span{
     background-color: rgba(128, 125, 250, 0.3);
     padding: 4px 6px;
     margin: 0px 4px 4px 0px;
+}
+
+.link{display: none;}
+
+.card:hover .link{
+    display: block;
+    text-align: end;
+    color: #807dfa;
+    font-size: 36px;
+    margin-bottom: -42px;
 }
 
 .card:hover{
@@ -264,7 +275,7 @@ span{
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 8px;
+    padding: 4px 0;
 }
 
 .button{
