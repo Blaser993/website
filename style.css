@@ -176,6 +176,22 @@ _________________________________ */
     padding-left: 0px;
 }
 
+.head__item :active{
+    border: #807dfa 2px solid;
+}
+
+.head__item :hover{
+    border: #807dfa 2px solid;
+}
+
+.head__item :target{
+    border: #807dfa 2px solid;
+}
+
+.head__item :focus-visible{
+    border: #807dfa 2px solid;
+}
+
 .hero{
     display: flex;
     flex-direction: column;

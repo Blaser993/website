@@ -33,7 +33,8 @@ _________________________________ */
 body{
     font-family:'Montserrat', sans-serif; ;
     background-color:#f2f2f2;
-    color:#181617;
+    color:#2e283c;
+    position: relative;
 }
 
 img{
@@ -48,7 +49,10 @@ a, ul, li, menu{
 }
 
 
-
+nav{
+  position: sticky;
+  top: 1;
+}
 
 
 /* __________________________________
@@ -136,23 +140,9 @@ input[type=email], select {
 
 }
 
-
-
-
 textarea {
     width: 100%;
-
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius:12px;
-    background-color: #f8f8f8;
-    resize: none;
-  }
-
-textarea {
-    width: 100%;
-    height: 150px;
+    height: 100px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -161,4 +151,29 @@ textarea {
     resize:vertical;
   }
 
+  .social{
+    padding: 0px 36px;
+    padding-top: 16px;
+}
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100%;
+    justify-content: flex-end;
+}
+
+  .button{
+    margin-left: -6px;
+    margin-right: 20px;
+    padding: 8px 12px;
+    border: 2px solid #807dfa;
+    border-radius: 12px;
+}
+
+.head__item{
+  flex-grow: 1;
+  justify-self: flex-start;
+  text-transform: uppercase;
+}
   
