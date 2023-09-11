@@ -244,28 +244,6 @@
 
 
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(document).ready(function() {
-    // Funzione per aggiornare il link attivo sulla base dello scroll
-    function updateActiveLink() {
-        var scrollPosition = $(window).scrollTop();
-        $('.section').each(function() {
-            var sectionTop = $(this).offset().top;
-            var sectionBottom = sectionTop + $(this).outerHeight();
-            if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-                var sectionId = $(this).attr('id');
-                $('.head__item').removeClass('active');
-                $('a[href="#' + sectionId + '"]').addClass('active');
-            }
-        });
-    }
 
-    // Esegui la funzione all'avvio della pagina e durante lo scroll
-    updateActiveLink();
-    $(window).scroll(updateActiveLink);
-});
-</script>
-<script src="./script.js"></script>
 
 </html>
