@@ -1,11 +1,33 @@
-/* Aggiungi queste classi CSS al tuo foglio di stile */
-.head__item.attivo::before {
-    content: "";
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #000;
-    display: inline-block;
-    margin-left: 5px;
+.head__item{
+    position: relative;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+aside .head__item{
+    padding-left: 12px !important
+}
+
+.shadow{
+    position: absolute;
+    display: none;
+}
+
+.head__item:hover .shadow{
+    display: block;
+    color: transparent;
+    text-shadow: -4px 0px 20px  #807dfa; /* Aggiungi un'ombra al testo quando il mouse è in hover */
+}
+
+.head__item:active{
+    color: #807dfa;
+}
+
+nav{
+    margin-left: -28px;
+}
+
+.tab{
+    padding-left: 8px;
 }
