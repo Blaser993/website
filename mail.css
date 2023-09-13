@@ -172,8 +172,12 @@ textarea {
 }
 
 .head__item{
-  flex-grow: 1;
+  
   justify-self: flex-start;
   text-transform: uppercase;
+}
+
+.riempi{
+  flex-grow: 1;
 }
   
