@@ -62,8 +62,9 @@ main{
 }
 
 body{
-    
-    background-color:#f2f2f2;
+    background: #f2f2f2;
+    background: -webkit-radial-gradient(circle, #f2f2f2 0%, #f2f2f2 50%, rgba(203, 171, 223, 0.75) 100%);
+    background: radial-gradient(circle, #f2f2f2 0%, #f2f2f2 50%, rgba(203, 171, 223, 0.75) 100%);
     color:#2e283c;
 
 }
