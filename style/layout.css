@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* __________________________________
+
+------------utility-----------------
+
+_________________________________ */
+
+.hide-item{
+    display: none;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.col{
+    border: 0px solid green;
+}
+
+/* __________________________________
+
+------------reset-----------------
+
+_________________________________ */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+section{
+    padding-top: 36px;
+    margin-bottom: 72px;
+}
+
+
+
+/* NASCONDO LA SCROLLBAR */
+.aside::-webkit-scrollbar {
+    display: none;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+a, ul, li, menu{
+    text-decoration: none;
+    color: currentColor;
+    list-style-type: none;
+}
+
+main{
+    max-height: 100dvh;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 72px;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+    background: #f2f2f2;
+    color:#2e283c;
+
+}
+
+.hero__descrizione h1{
+    font-size: 7vw;
+    font-weight: 900;
+    line-height: 0.9em;
+    padding-top: 36px;
+}
+
+.hero__descrizione h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin: 1.2rem 0;
+    margin-bottom: 0;
+}
+
+/* __________________________________
+
+------------layout-----------------
+
+_________________________________ */
+
+.container-full {
+
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100%;
+}
+
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.col-12{
+    flex-basis: 100% ;
+   
+}
+
+.col-7{
+    flex-basis: calc(100%/12*7) ;
+   
+}
+
+.col-6{
+    flex-basis: calc(100%/12*6) ;
+    margin-bottom: 24px;
+}
+
+.col-5{
+    flex-basis: calc(100%/12*5) ;
+    
+}
+
+.col-auto{
+    flex-grow: 1;
+}
+
+.head__item{
+    position: relative;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+.shadow{
+    position: absolute;
+    display: none;
+}
+
+.head__item:hover .shadow{
+    display: block;
+    color: transparent;
+    text-shadow: 0px -8px 20px  #807dfa; /* Aggiungi un'ombra al testo quando il mouse è in hover */
+}
+
+.head__item:active{
+    color: #807dfa;
+}
+
+  
+.riempi{
+flex-grow: 1;
+}
+  
+
+.tab{
+    padding-left: 8px;
+}
+
+.social{
+    padding: 12px 36px;
+    padding-top: 16px;
+}
+
+.button{
+    margin-left: -6px;
+    margin-right: 20px;
+    padding: 8px 12px;
+    border: 2px solid #807dfa;
+    border-radius: 12px;
+  }
+
+  h3{
+    font-size: 2rem;
+}

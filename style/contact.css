@@ -31,7 +31,7 @@ _________________________________ */
 }
 
 body{
-    font-family:'Montserrat', sans-serif; ;
+    font-family:'Montserrat', sans-serif;
     background-color:#f2f2f2;
     color:#2e283c;
     position: relative;
@@ -48,23 +48,17 @@ a, ul, li, menu{
     list-style-type: none;
 }
 
+p{
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  margin: 1.2rem 0;
+  margin-bottom: 0;
+}
 
 nav{
   position: sticky;
   top: 1;
 }
-
-/* __________________________________
-
-------------competenze-----------------
-
-_________________________________ */
-
-/* __________________________________
-
-------------portfolio-----------------
-
-_________________________________ */
 
 
 /* __________________________________
