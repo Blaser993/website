@@ -15,7 +15,7 @@ _________________________________ */
 }
 
 .col{
-    border: 0px solid green;
+    border: 2px solid green;
 }
 
 /* __________________________________
@@ -30,11 +30,13 @@ _________________________________ */
     padding: 0px;
 }
 
-
-section{
-    padding-top: 36px;
-    margin-bottom: 72px;
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
 }
+
+
 
 
 
@@ -55,13 +57,12 @@ a, ul, li, menu{
 }
 
 main{
-    max-height: 100dvh;
-    overflow: hidden;
     font-family: 'Montserrat', sans-serif;
     padding: 0px 72px;
 }
 
 body{
+    position: relative;
     font-family:'Montserrat', sans-serif;
     background: #f2f2f2;
     color:#2e283c;
@@ -103,6 +104,7 @@ _________________________________ */
     margin-bottom: 12px;
   }
 
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -119,6 +121,16 @@ _________________________________ */
    
 }
 
+.col-10{
+    flex-basis: calc(100%/12*10) ;
+   
+}
+
+.col-8{
+    flex-basis: calc(100%/12*8) ;
+   
+}
+
 .col-7{
     flex-basis: calc(100%/12*7) ;
    
@@ -132,6 +144,21 @@ _________________________________ */
 .col-5{
     flex-basis: calc(100%/12*5) ;
     
+}
+
+.col-4{
+    flex-basis: calc(100%/12*4) ;
+   
+}
+
+.col-3{
+    flex-basis: calc(100%/12*3) ;
+    margin-bottom: 24px;
+}
+
+.col-2{
+    flex-basis: calc(100%/12*2) ;
+
 }
 
 .col-auto{
