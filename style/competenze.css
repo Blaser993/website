@@ -1,6 +1,31 @@
 .card{
     padding: 12px;
     margin-bottom: 12px;
+    padding-right: 24px;
+
 }
 
+
+.line{
+    flex-grow: 1;
+    border-left: 6px solid #2e283c;
+    margin: -16px 0;
+    margin-left: -12px;
+    border-radius: 8px;
+}
+
+section{
+    margin-bottom: 24px;
+}
+
+figure{
+    margin: auto;
+    margin-left: 0;
+    padding: 16px;
+  
+}
+
+.hide{
+    display: none;
+}
 
