@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 isDeleting = true;
                 setTimeout(autoscrittura, displayTime);
             } else {
-                setTimeout(autoscrittura, 100); // Velocità di scrittura
+                setTimeout(autoscrittura, 175); // Velocità di scrittura
             }
         }
     }

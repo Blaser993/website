@@ -33,16 +33,17 @@ nav{
 }
 
 .autoscrittura {
-    font-family: 'Arial', sans-serif;
-    font-size: 18px;
-    border-right: 2px solid #000;
+    font-weight: 700;
+    font-size:2.8vw;
+    color:  #807dfa;
     white-space: nowrap;
     overflow: hidden;
     margin: 0;
     padding: 20px;
     border-right: none;
-    max-width: 400px; /* Larghezza massima del contenitore */
-    height: 20px; /* Altezza del contenitore */
+    padding-left: 0;
+    max-width: 800px; /* Larghezza massima del contenitore */
+    height: 100px; /* Altezza del contenitore */
 }
 
 
