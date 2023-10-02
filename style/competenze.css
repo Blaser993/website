@@ -7,6 +7,7 @@
 
 
 .line{
+    min-height: 32px;
     flex-grow: 1;
     border-left: 6px solid #2e283c;
     margin: -16px 0;
