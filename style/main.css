@@ -32,15 +32,23 @@ _________________________________ */
 
 
 section{
-    padding-top: 36px;
     margin-bottom: 72px;
 }
 
+
+#home{
+    min-height: 100vh;
+}
 
 
 /* NASCONDO LA SCROLLBAR */
 .aside::-webkit-scrollbar {
     display: none;
+}
+
+strong{
+    display: inline-block;
+    line-height: 72px;
 }
 
 img{
@@ -127,6 +135,8 @@ _________________________________ */
     max-height: 100%;
 }
 
+
+
 .column{
     flex-direction: column;
     justify-content: flex-start;
@@ -190,7 +200,7 @@ _________________________________ */
 }
 
 .social{
-
+    row-gap: 28px;
     padding-bottom: 36px;
 }
 
@@ -226,6 +236,7 @@ _________________________________ */
     margin-bottom: 24px;
 
 }
+
 span{
     display: none;
 }

@@ -111,6 +111,10 @@ _________________________________ */
     max-height: 100%;
 }
 
+.spacing{
+    row-gap: 28px;
+}
+
 .column{
     flex-direction: column;
     justify-content: flex-start;
