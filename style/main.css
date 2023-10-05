@@ -36,9 +36,7 @@ section{
 }
 
 
-#home{
-    min-height: 100vh;
-}
+
 
 
 /* NASCONDO LA SCROLLBAR */
@@ -46,10 +44,7 @@ section{
     display: none;
 }
 
-strong{
-    display: inline-block;
-    line-height: 72px;
-}
+
 
 img{
     display: block;
@@ -231,14 +226,22 @@ _________________________________ */
     grid-template-columns: 5fr 7fr;
     grid-template-rows: 1fr;
     grid-column-gap: 12px;
-    padding: 24px;
+    padding: 12px;
     border-radius: 16px;
     margin-bottom: 24px;
 
 }
 
+.card__img { grid-area: 1 / 1 / 2 / 2; }
+.card__content { grid-area: 1 / 2 / 2 / 3; }
+.chips { grid-area: 2 / 1 / 3 / 3; }
+
 span{
     display: none;
+}
+
+.chips{
+    padding-top: 12px;
 }
 
 .card:hover span{

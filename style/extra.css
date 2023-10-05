@@ -9,6 +9,11 @@ aside .head__item{
     padding-left: 12px !important
 }
 
+.scroll{
+    display: inline-block;
+    line-height: 72px;
+}
+
 .shadow{
     position: absolute;
     display: none;

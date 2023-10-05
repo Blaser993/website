@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const textArray = ['Full stack developer', 'UI/UX Designer', 'Game designer'];
+    const textArray = ['Jr Full stack developer', 'UI/UX Designer', 'Creative web designer'];
     let index = 0;
     let letterIndex = 0;
     let isDeleting = false;
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 isDeleting = true;
                 setTimeout(autoscrittura, displayTime);
             } else {
-                setTimeout(autoscrittura, 175); // Velocità di scrittura
+                setTimeout(autoscrittura, 150); // Velocità di scrittura
             }
         }
     }

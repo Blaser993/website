@@ -85,6 +85,10 @@ h3{
     font-size: 2rem;
 }
 
+h5{
+    font-size: 1.4rem;
+}
+
 p{
     font-size: 1.1rem;
     line-height: 1.6rem;
@@ -110,6 +114,7 @@ _________________________________ */
     flex-wrap: wrap;
     max-height: 100%;
 }
+
 
 .spacing{
     row-gap: 28px;

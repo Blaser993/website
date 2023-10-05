@@ -5,6 +5,10 @@
 
 }
 
+main{
+    padding-right: 0px;
+}
+
 
 .line{
     min-height: 32px;
@@ -15,6 +19,21 @@
     border-radius: 8px;
 }
 
+.column{
+    padding-right: 4px;
+}
+
+.skills{
+    padding-right: 24px;
+}
+
+.formazione{
+    margin-right:-24px;
+}
+
+.linguaggi, .backend, .design, .frontend{
+    flex-basis: calc(100%/12*3) ;
+}
 
 
 figure{
