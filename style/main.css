@@ -200,6 +200,10 @@ _________________________________ */
     padding-bottom: 36px;
 }
 
+.mobile{
+    display:none;
+}
+
 /* -------mail----------- */
 
 .invio{

@@ -100,5 +100,9 @@
     .social{
         padding-bottom: 0;
     }
+
+    .mobile{
+        display: block;
+    }
 }
 
