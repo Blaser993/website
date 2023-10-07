@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
 
     main{
         padding: 0 24px;
@@ -25,15 +25,29 @@
         margin-bottom: 0;
     }
 
+    .mission{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
 
     .linguaggi, .backend, .design, .frontend{
         flex-basis: calc(100%/12*6) ;
     }
 
+    .hero{
+        padding-right: 24px;
+    }
+
 
   }
 
-  @media screen and (max-width: 630px) {
+  @media screen and (max-width: 768px) {
+
+    h1{
+        font-size: 96px !important;
+
+    }
 
     main, .aside{
         overflow: unset;
@@ -57,12 +71,34 @@
     .card__content{ grid-area: 1 / 1 / 2 / 2; margin-bottom: 12px; }
     .chips { grid-area: 3 / 1 / 4 / 2 }
 
-    .end{
-        display: none;
-    }
+  
 
     #competenze{
         padding-bottom: 24px;
     }
 
+    #mansione{
+        font-size: 30px;
+    }
+
+    .hero{
+        padding-right: 0px;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    nav{
+        margin:0px -24px;
+    }
+
+    section{
+        margin-bottom: 24px;
+    }
+
+    .social{
+        padding-bottom: 0;
+    }
 }
+
