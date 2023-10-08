@@ -44,7 +44,10 @@ section{
     display: none;
 }
 
-
+li :hover .button{
+    background-color: #807dfa;
+    color: white;
+}
 
 img{
     display: block;
@@ -303,6 +306,12 @@ span{
     padding: 8px 12px;
     border: 2px solid #807dfa;
     border-radius: 12px;
+}
+
+.button:hover{
+    background-color: #807dfa;
+    color: white;
+
 }
 
 /* ------------------------- */

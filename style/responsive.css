@@ -104,5 +104,18 @@
     .mobile{
         display: block;
     }
+
+    .col-auto{
+        flex-grow: unset;
+    }
+
+    .head{
+        row-gap: 12px;
+        justify-content: flex-start;
+    }
+
+    .riempi{
+        flex-basis: 100%;
+    }
 }
 

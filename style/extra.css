@@ -9,10 +9,7 @@ aside .head__item{
     padding-left: 12px !important
 }
 
-.scroll{
-    display: inline-block;
-    line-height: 72px;
-}
+
 
 .shadow{
     position: absolute;
@@ -50,6 +47,42 @@ nav{
     max-width: 800px; /* Larghezza massima del contenitore */
     height: 100px; /* Altezza del contenitore */
 }
+
+
+.text-container {
+    position: relative;
+    padding-top: 42px;
+    justify-content: right;
+    font-weight: 600;
+  }
+  
+  .scrolling-text {
+    position: absolute;
+    bottom: 0;
+    animation: scroll 3s linear infinite;
+
+  }
+  
+  .scrolling-text::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #000; /* Colore della freccia */
+  }
+  
+  @keyframes scroll {
+    0%, 100% {
+      transform: translateY(100%);
+    }
+    50% {
+      transform: translateY(-100%);
+    }
+  }
 
 
 
