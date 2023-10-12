@@ -8,14 +8,12 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, PHP, Vue, Laravel, C#, Wordpress, Bootstrap, front-end, back-end, full-stack, web designer">
     <meta name="author" content="Corrado de Pinto">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://corradodepinto.netlify.app/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Corrado de Pinto Portfolio">
     <meta property="og:description" content="La mia missione è quella di realizzare prodotti ed esperienze digitali accessibili e inclusive per il web!">
     <meta property="og:image" content="https://github.com/Blaser993/website/tree/main/assets/img/colorpic.png">
-
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="corradodepinto.netlify.app">
@@ -23,9 +21,9 @@
     <meta name="twitter:title" content="Corrado de Pinto Portfolio">
     <meta name="twitter:description" content="La mia missione è quella di realizzare prodotti ed esperienze digitali accessibili e inclusive per il web!">
     <meta name="twitter:image" content="https://github.com/Blaser993/website/tree/main/assets/img/colorpic.png">
-
-
+    <!-- file di stile -->
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/resetutilities.css">
     <link rel="stylesheet" href="./assets/css/layout.css">
     <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
@@ -57,7 +55,6 @@
 <body>
     <nav>
         <div class="container-full">
-
             <ul class="row social head">
                 <li class="head__item"><h3 class="shadow">0000000000000000</h3><a class="head__item" href="index.html">↩ Torna alla home</a></li>
                 <li class="riempi"></li>
@@ -67,46 +64,28 @@
             </ul>
         </div>
     </nav>
-
     <div class="container-mail">
         <form class="contact100-form" id="contact-form" >
             <div class="title">
                 <h3>Teniamoci in contatto ✌️</h3>
-            </div>
-    
+            </div>  
             <div>
-
                 <input type="hidden" name="contact_number" > 
                 <label for="fname">Nome</label>
                 <input type="text" id="fname" name="user_name" placeholder="Inserisci il tuo nome..." required>
             </div>
-
             <div>
-
                 <label for="email">Mail</label>
                 <input type="email" id="mail" name="user_mail" placeholder="Inserisci la tua mail..." required>
-            </div>
-
-            
+            </div>           
             <div>
-
                 <label>Scrivi quì il tuo messaggio</label>
                 <textarea name="message" required></textarea >
-            
-            </div>
-            
-
-            
+            </div>            
             <div class="submit">
                 <input type="submit" value="Invia mail">
             </div>
-
         </form>
-    </div>
-        
-    
+    </div>  
 </body>
-
-
-
 </html>

@@ -1,61 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* __________________________________
-
-------------utility-----------------
-
-_________________________________ */
-
-.hide-item{
-    display: none;
-}
-
-.debug{
-    border: 1px solid red;
-}
-
-.col{
-    border: 0px solid green;
-}
-
-/* __________________________________
-
-------------reset-----------------
-
-_________________________________ */
-
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-nav{
-    position: sticky;
-    top: 0;
-    background-color: #f2f2f2;
-}
-
-
-
-
-
-/* NASCONDO LA SCROLLBAR */
-.aside::-webkit-scrollbar {
-    display: none;
-}
-
-img{
-    display: block;
-    width: 100%;
-}
-
-a, ul, li, menu{
-    text-decoration: none;
-    color: currentColor;
-    list-style-type: none;
-}
-
 main{
     font-family: 'Montserrat', sans-serif;
     padding: 0px 72px;
@@ -66,7 +8,6 @@ body{
     font-family:'Montserrat', sans-serif;
     background: #f2f2f2;
     color:#2e283c;
-
 }
 
 .hero__descrizione h1{
@@ -96,25 +37,18 @@ p{
     margin-bottom: 0;
 }
 
-/* __________________________________
-
-------------layout-----------------
-
-_________________________________ */
+/* ------------layout----------------- */
 
 .container-full {
-
     padding: 12px;
     margin-bottom: 12px;
-  }
-
+}
 
 .row{
     display: flex;
     flex-wrap: wrap;
     max-height: 100%;
 }
-
 
 .spacing{
     row-gap: 28px;
@@ -126,8 +60,7 @@ _________________________________ */
 }
 
 .col-12{
-    flex-basis: 100% ;
-   
+    flex-basis: 100% ; 
 }
 
 .col-10{
@@ -161,18 +94,15 @@ _________________________________ */
 }
 
 .col-4{
-    flex-basis: calc(100%/12*4) ;
-   
+    flex-basis: calc(100%/12*4) ;  
 }
 
 .col-3{
     flex-basis: calc(100%/12*3) ;
-
 }
 
 .col-2{
     flex-basis: calc(100%/12*2) ;
-
 }
 
 .col-auto{
@@ -200,13 +130,11 @@ _________________________________ */
 .head__item:active{
     color: #807dfa;
 }
-
-  
+ 
 .riempi{
-flex-grow: 1;
+    flex-grow: 1;
 }
   
-
 .tab{
     padding-left: 8px;
 }
@@ -222,8 +150,8 @@ flex-grow: 1;
     padding: 8px 12px;
     border: 2px solid #807dfa;
     border-radius: 12px;
-  }
+}
 
-  h3{
+h3{
     font-size: 2rem;
 }

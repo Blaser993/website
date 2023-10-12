@@ -2,13 +2,11 @@
     padding: 12px;
     margin-bottom: 12px;
     padding-right: 24px;
-
 }
 
 main{
     padding-right: 0px;
 }
-
 
 .line{
     min-height: 32px;
@@ -35,12 +33,9 @@ main{
     flex-basis: calc(100%/12*3) ;
 }
 
-
 figure{
-    margin: auto;
-    margin-left: 0;
+    margin:auto 0;
     padding: 16px;
-  
 }
 
 .hide{

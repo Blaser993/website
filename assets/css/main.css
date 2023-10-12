@@ -1,65 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* __________________________________
-
-------------utility-----------------
-
-_________________________________ */
-
-.hide-item{
-    display: none;
-}
-
-.debug{
-    border: 1px solid red;
-}
-
-.col{
-    border: 0px solid green;
-}
-
-/* __________________________________
-
-------------reset-----------------
-
-_________________________________ */
-
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-section{
-    margin-bottom: 72px;
-}
-
-
-
-
-
-/* NASCONDO LA SCROLLBAR */
-.aside::-webkit-scrollbar {
-    display: none;
-}
-
-li :hover .button{
-    background-color: #807dfa;
-    color: white;
-}
-
-img{
-    display: block;
-    width: 100%;
-}
-
-a, ul, li, menu{
-    text-decoration: none;
-    color: currentColor;
-    list-style-type: none;
-}
-
 main{
     max-height: 100dvh;
     overflow: hidden;
@@ -98,30 +36,21 @@ p{
     margin-bottom: 0;
 }
 
-/* __________________________________
-
-------------layout-----------------
-
-_________________________________ */
-
+/* -----------layout----------------- */
 
 .container{
     max-width: 1000px;
     margin: auto;
 }
-
 .content{
     min-height: 100vh;
-
 }
 
 .aside{
     padding-top: 24px;
     max-height: 100dvh;
     overflow: auto;
-
 }
-
 
 .wrapper{
     /* MAIN DIMENSIONE IMMAGINE */
@@ -134,21 +63,17 @@ _________________________________ */
     max-height: 100%;
 }
 
-
-
 .column{
     flex-direction: column;
     justify-content: flex-start;
 }
 
 .col-12{
-    flex-basis: 100% ;
-   
+    flex-basis: 100% ;  
 }
 
 .col-7{
-    flex-basis: calc(100%/12*7) ;
-   
+    flex-basis: calc(100%/12*7) ;  
 }
 
 .col-6{
@@ -157,39 +82,30 @@ _________________________________ */
 }
 
 .col-5{
-    flex-basis: calc(100%/12*5) ;
-    
+    flex-basis: calc(100%/12*5) ;   
 }
 
 .col-auto{
     flex-grow: 1;
 }
 
-/* __________________________________
-
-------------elementi-----------------
-
-_________________________________ */
+/* ------------elementi------------- */
 
 .head{
     margin-top: auto;
     line-height: 48px;
-    align-items: flex-start;
-    
+    align-items: flex-start;  
     margin-bottom: 24px;
 }
-
 
 .end{
     justify-content: flex-end;
 }
 
-
 .hero{
     display: flex;
     flex-direction: column;
     padding-right: 60px;
- 
     /* position: sticky;
     top: 0; */
 }
@@ -213,8 +129,6 @@ _________________________________ */
     justify-self: center;
 }
 
-/* -------mail----------- */
-
 .hero__wrapper {
     width: 100%;
     padding-top: 100px;
@@ -223,12 +137,10 @@ _________________________________ */
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    align-self: flex-start;
-    
+    align-self: flex-start;   
 }
 
 .card {
-
     display: grid;
     align-items: center;
     grid-template-columns: 5fr 7fr;
@@ -237,7 +149,6 @@ _________________________________ */
     padding: 12px;
     border-radius: 16px;
     margin-bottom: 24px;
-
 }
 
 .card__img { grid-area: 1 / 1 / 2 / 2; }
@@ -352,14 +263,3 @@ span{
       background-position: 200% center;
     }
   }
-
-
-/* __________________________________
-
-------------librerie-----------------
-
-_________________________________ */
-
-/* 1_____________________________________ */
-
-  /* __________________________________________ */
