@@ -42,6 +42,14 @@ p{
     max-width: 1000px;
     margin: auto;
 }
+
+.mission{
+    padding-top: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
 .content{
     min-height: 100vh;
 }
