@@ -3,6 +3,11 @@
     main{
         padding: 0 24px;
     }
+
+    .mission{
+        word-wrap: break-word;
+    }
+
     .card{
         display: grid;
         grid-template-columns: 2fr 10fr;
@@ -41,8 +46,7 @@
   @media screen and (max-width: 768px) {
 
     h1{
-        font-size: 96px !important;
-
+        font-size: 72px !important;
     }
 
     main, .aside{
@@ -72,7 +76,7 @@
     }
 
     #mansione{
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .hero{
@@ -110,6 +114,10 @@
 
     .riempi{
         flex-basis: 100%;
+    }
+
+    .linguaggi, .backend, .design, .frontend{
+        flex-basis: 100% ;
     }
 }
 

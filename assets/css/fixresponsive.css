@@ -1,0 +1,25 @@
+@media screen and (max-width: 1024px) {
+
+    nav{
+        max-width: 100vw;
+    }
+
+
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .social{
+        row-gap: 26px;
+    }
+
+    .head__item{
+        margin-bottom: -32px;
+    }
+
+    .col-6{
+        flex-basis: 100%;
+    }
+    
+}
+
